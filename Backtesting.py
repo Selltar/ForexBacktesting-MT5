@@ -22,9 +22,6 @@ Currency = "AUDUSD"
 
 Capital = 500
 InitialCapital = Capital
-Payoutratio = 140
-Lot = 10
-StrikePrice = 0.0001
 Timeframe = mt5.TIMEFRAME_M5  # data frequency/internval (eg. minutes, hourly, daily...etc)
 Startdate = datetime(2022, 1, 7,
                      tzinfo=timezone)  # create 'datetime' object in UTC time zone to avoid the implementation of a local time zone offset
